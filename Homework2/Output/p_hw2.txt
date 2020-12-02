@@ -1,0 +1,182 @@
+
+TEST OF STANDARD OPTIONS IN BLACK MODEL FOR SINGLE ASSET by  Dmitry Kramkov 
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+
+quality = 200
+
+EUROPEAN STRADDLE OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 0.5
+
+RISK REPORT: 
+
+price = 11.061
+delta = 18.9775
+one percent gamma = 5.39963
+
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   11.7409
+92.3116   11.2183
+94.1765   10.8767
+96.0789   10.7301
+98.0199   10.7892
+100   11.061
+102.02   11.5486
+104.081   12.2509
+106.184   13.1634
+108.329   14.2781
+110.517   15.5842
+
+
+AMERICAN CALL ON FORWARD IN ASSET MODEL
+
+forward price = 100
+time to maturity0.5
+exercise times = 
+[0] = 0.0769231
+[1] = 0.115385
+[2] = 0.153846
+[3] = 0.192308
+[4] = 0.230769
+[5] = 0.269231
+[6] = 0.307692
+[7] = 0.346154
+[8] = 0.384615
+[9] = 0.423077
+[10] = 0.461538
+[11] = 0.5
+
+
+
+RISK REPORT: 
+
+price = 7.92774
+delta = 62.3115
+one percent gamma = 2.95595
+
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   3.16274
+92.3116   3.88756
+94.1765   4.72267
+96.0789   5.67277
+98.0199   6.74078
+100   7.92774
+102.02   9.23282
+104.081   10.6535
+106.184   12.1859
+108.329   13.8247
+110.517   15.5641
+
+
+DOWN-AND-REBATE OPTION IN ASSET MODEL
+
+lower barrier = 90
+notional = 100
+barrier times = 
+[0] = 0.0727273
+[1] = 0.109091
+[2] = 0.145455
+[3] = 0.181818
+[4] = 0.218182
+[5] = 0.254545
+[6] = 0.290909
+[7] = 0.327273
+[8] = 0.363636
+[9] = 0.4
+
+
+
+RISK REPORT: 
+
+price = 28.2187
+delta = -356.319
+one percent gamma = 30.3934
+
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   73.7209
+92.3116   64.286
+94.1765   54.4015
+96.0789   44.7756
+98.0199   35.9458
+100   28.2187
+102.02   21.6991
+104.081   16.3566
+106.184   12.0879
+108.329   8.75697
+110.517   6.21723
+
+
+UP-AND-IN AMERICAN PUT OPTION IN ASSET MODEL
+
+strike = 100
+exericse times = 
+[0] = 0.0769231
+[1] = 0.115385
+[2] = 0.153846
+[3] = 0.192308
+[4] = 0.230769
+[5] = 0.269231
+[6] = 0.307692
+[7] = 0.346154
+[8] = 0.384615
+[9] = 0.423077
+[10] = 0.461538
+[11] = 0.5
+
+
+upper barrier = 110
+barrier times = 
+[0] = 0.0727273
+[1] = 0.109091
+[2] = 0.145455
+[3] = 0.181818
+[4] = 0.218182
+[5] = 0.254545
+[6] = 0.290909
+[7] = 0.327273
+[8] = 0.363636
+[9] = 0.4
+
+
+
+RISK REPORT: 
+
+price = 0.242446
+delta = 3.69289
+one percent gamma = 0.385311
+
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   0.0406116
+92.3116   0.0601474
+94.1765   0.0876129
+96.0789   0.125469
+98.0199   0.176377
+100   0.242446
+102.02   0.323656
+104.081   0.415701
+106.184   0.508431
+108.329   0.586672
+110.517   0.634279
+

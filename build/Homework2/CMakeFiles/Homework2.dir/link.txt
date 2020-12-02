@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Homework2.dir/Src/Homework2.cpp.o CMakeFiles/Homework2.dir/Src/test_Homework2.cpp.o -o Homework2  ../cfl/libcfl.a ../test/libcfl_test.a ../cfl/libcfl.a 

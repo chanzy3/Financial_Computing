@@ -1,0 +1,152 @@
+
+TEST OF DATA CURVES by chengzhh
+
+FORWARD PRICES FOR EXCHANGE RATES
+
+initial time = 1
+spot FX rate = 100
+domestic interest rate = 0.12
+foreign interest rate = 0.05
+
+output forward FX rates: 
+VALUES VERSUS TIME:
+
+time    value
+1   100
+1.05   100.351
+1.1   100.702
+1.15   101.056
+1.2   101.41
+1.25   101.765
+1.3   102.122
+1.35   102.48
+1.4   102.84
+1.45   103.2
+
+FORWARD PRICES FOR COUPON BOND
+
+initial time = 1
+interest rate = 0.07
+
+parameters of the bond:
+notional = 1000
+period between payments = 0.25
+number of payments = 6
+rate = 0.07
+
+clean prices:
+
+VALUES VERSUS TIME:
+
+time    value
+1   999.13
+1.13636   999.168
+1.27273   999.269
+1.40909   999.323
+1.54545   999.413
+1.68182   999.484
+1.81818   999.563
+1.95455   999.65
+2.09091   999.718
+2.22727   999.822
+dirty prices:
+
+VALUES VERSUS TIME:
+
+time    value
+1   999.13
+1.13636   1008.71
+1.27273   1000.86
+1.40909   1010.46
+1.54545   1002.6
+1.68182   1012.21
+1.81818   1004.34
+1.95455   1013.97
+2.09091   1006.08
+2.22727   1015.73
+
+LOG LINEAR INTERPOLATION OF FORWARD CURVE
+
+initial time = 1
+spot = 100
+input maturities of forwards: 
+[0] = 1.5
+[1] = 2
+[2] = 2.5
+[3] = 3
+[4] = 3.5
+[5] = 4
+[6] = 4.5
+[7] = 5
+[8] = 5.5
+[9] = 6
+
+input forward prices: 
+[0] = 116.183
+[1] = 134.986
+[2] = 156.831
+[3] = 182.212
+[4] = 211.7
+[5] = 245.96
+[6] = 285.765
+[7] = 332.012
+[8] = 385.743
+[9] = 448.169
+
+output forward prices: 
+VALUES VERSUS TIME:
+
+time    value
+1   100
+1.425   113.598
+1.85   129.046
+2.275   146.594
+2.7   166.529
+3.125   189.175
+3.55   214.899
+3.975   244.123
+4.4   277.319
+4.825   315.031
+
+LEAST SQUARES FIT OF VOLATILITY CURVE FOR BLACK MODEL
+
+lambda = 0.05
+initial time = 1
+input times: 
+[0] = 1.5
+[1] = 2
+[2] = 2.5
+[3] = 3
+[4] = 3.5
+[5] = 4
+[6] = 4.5
+[7] = 5
+[8] = 5.5
+[9] = 6
+
+input volatilities: 
+[0] = 0.303789
+[1] = 0.307659
+[2] = 0.31161
+[3] = 0.315644
+[4] = 0.319764
+[5] = 0.323972
+[6] = 0.328269
+[7] = 0.332657
+[8] = 0.337139
+[9] = 0.341716
+
+output volatilities
+VALUES VERSUS TIME:
+
+time    value
+1.001   0.343406
+1.476   0.339369
+1.951   0.33541
+2.426   0.331528
+2.901   0.327723
+3.376   0.323991
+3.851   0.320332
+4.326   0.316744
+4.801   0.313225
+5.276   0.309774

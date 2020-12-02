@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcfl_test.a CMakeFiles/cfl_test.dir/Src/Black.cpp.o CMakeFiles/cfl_test.dir/Src/Data.cpp.o CMakeFiles/cfl_test.dir/Src/HullWhite.cpp.o CMakeFiles/cfl_test.dir/Src/Main.cpp.o
+/usr/bin/ranlib libcfl_test.a

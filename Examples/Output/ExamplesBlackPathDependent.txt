@@ -1,0 +1,91 @@
+
+TEST OF PATH DEPENDENT OPTIONS IN BLACK MODEL FOR SINGLE ASSET by chengzhh
+
+PARAMETERS OF BLACK MODEL:
+
+interest rate = 0.07
+spot price = 100
+convenience yield = 0.02
+sigma = 0.2
+lambda = 0.05
+initial time = 0
+
+quality = 200
+quality for additional state process = 200
+
+ASIAN CALL OPTION IN ASSET MODEL
+
+strike = 100
+maturity = 0.5
+reset times = 
+[0] = 0.0727273
+[1] = 0.109091
+[2] = 0.145455
+[3] = 0.181818
+[4] = 0.218182
+[5] = 0.254545
+[6] = 0.290909
+[7] = 0.327273
+[8] = 0.363636
+[9] = 0.4
+
+
+RISK REPORT: 
+
+price = 3.92992
+delta = 53.8381
+one percent gamma = 4.81814
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   0.70654
+92.3116   1.05351
+94.1765   1.52778
+96.0789   2.15292
+98.0199   2.94887
+100   3.92992
+102.02   5.1032
+104.081   6.46802
+106.184   8.01618
+108.329   9.7332
+110.517   11.6002
+
+BARRIER UP-OR-DOWN-AND-OUT OPTION IN ASSET MODEL
+
+lower barrier = 90
+upper barrier = 110
+notional = 100
+barrier times = 
+[0] = 0.0727273
+[1] = 0.109091
+[2] = 0.145455
+[3] = 0.181818
+[4] = 0.218182
+[5] = 0.254545
+[6] = 0.290909
+[7] = 0.327273
+[8] = 0.363636
+[9] = 0.4
+
+
+RISK REPORT: 
+
+price = 32.3264
+delta = -48.3888
+one percent gamma = -48.272
+
+OPTION VALUES VERSUS SPOT:
+
+spot    option
+90.4837   16.6948
+92.3116   21.9646
+94.1765   26.7544
+96.0789   30.3758
+98.0199   32.3178
+100   32.3264
+102.02   30.4204
+104.081   26.877
+106.184   22.1967
+108.329   17.0298
+110.517   12.0512

@@ -1,0 +1,106 @@
+
+TEST OF DATA CURVES by chengzhh
+
+STATIONARY FORM FOR CHANGES IN YIELD CURVE IN HULL AND WHITE MODEL
+
+initial time = 109
+mean-reversion rate =0.05
+
+VALUES VERSUS TIME:
+
+time    value
+109.001   0.999975
+109.476   0.988194
+109.951   0.976597
+110.426   0.965182
+110.901   0.953946
+111.376   0.942884
+111.851   0.931994
+112.326   0.921274
+112.801   0.910719
+113.276   0.900328
+
+LOG LINEAR INTERPOLATION OF DISCOUNT CURVE
+
+initial time = 1
+input times: 
+[0] = 1.5
+[1] = 2
+[2] = 2.5
+[3] = 3
+[4] = 3.5
+[5] = 4
+[6] = 4.5
+[7] = 5
+[8] = 5.5
+[9] = 6
+
+input discount factors: 
+[0] = 0.941765
+[1] = 0.88692
+[2] = 0.83527
+[3] = 0.786628
+[4] = 0.740818
+[5] = 0.697676
+[6] = 0.657047
+[7] = 0.618783
+[8] = 0.582748
+[9] = 0.548812
+
+the result of log-linear interpolation:
+VALUES VERSUS TIME:
+
+time    value
+1   1
+1.425   0.950279
+1.85   0.90303
+2.275   0.85813
+2.7   0.815462
+3.125   0.774916
+3.55   0.736387
+3.975   0.699772
+4.4   0.664979
+4.825   0.631915
+
+LEAST SQUIRE FIT OF DISCOUNT CURVE FOR HULL AND WHITE MODEL
+
+lambda = 0.05
+initial time = 1
+input times: 
+[0] = 1.5
+[1] = 2
+[2] = 2.5
+[3] = 3
+[4] = 3.5
+[5] = 4
+[6] = 4.5
+[7] = 5
+[8] = 5.5
+[9] = 6
+
+input discount factors: 
+[0] = 0.965605
+[1] = 0.932394
+[2] = 0.900325
+[3] = 0.869358
+[4] = 0.839457
+[5] = 0.810584
+[6] = 0.782705
+[7] = 0.755784
+[8] = 0.729789
+[9] = 0.704688
+
+output discount factors
+VALUES VERSUS TIME:
+
+time    value
+1   1
+1.5   0.963752
+2   0.929666
+2.5   0.897582
+3   0.867358
+3.5   0.838861
+4   0.811969
+4.5   0.786572
+5   0.762567
+5.5   0.739861
